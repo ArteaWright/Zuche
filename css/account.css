@@ -1,0 +1,65 @@
+body{
+    background-image: url("/photos/behzad-ghaffarian-nhWgZNV85LQ-unsplash.jpg");
+    background-position: center;
+    background-size:cover;
+}
+h1, h2 {
+    text-align: center;
+} 
+h1 {
+    color: black;
+    margin: 5%;
+    font-size: 50px;
+}
+h2 {
+    margin: 2% 0;
+    color:black;
+    font-size: 16px;
+}  
+p {
+    color:white;
+}
+form {
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: black;
+    background: rgba(128, 128, 128, 0.5);
+    padding: 10%;
+    width: 70%;
+    margin: 10% auto;
+}
+form a {
+    font-size: x-small;
+    text-decoration: underline;
+    color:white;
+} 
+input[type=text], input[type=email],
+input[type=tel] {
+    width: 100%;
+    padding: 12px;
+    border: solid #e6e6e6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize:vertical;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+button {
+    background-color: rgb(116, 115, 115);
+    color: white;
+    padding: 3px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background:black;
+    color:white;
+}
+input:invalid {
+    border: 2px solid red;
+}
+footer {
+    margin-top: 2%;
+}

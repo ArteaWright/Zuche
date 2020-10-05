@@ -1,0 +1,235 @@
+.herocontainer {
+    width: 100%;
+    max-width: 1500px;
+    height: 41rem;
+    overflow: hidden;
+    background-image: url(/photos/hero.jpg);
+    background-position: 0% 40%;
+    background-size: 100%;
+    background-clip: content-box;
+    padding: 10px;
+    margin: auto;
+}
+@media all and (max-width:600px) {
+.herocontainer {
+    background-repeat: no-repeat;
+    height: 30rem;
+    }
+}
+.slogan {
+    width: 100%;
+    position: relative;
+    top: 18rem;
+    margin: auto;
+    padding: 0 1rem;
+}
+@media all and (max-width:600px) {
+.slogan {
+    top: 15rem;
+    }
+}
+@media all and (min-width:800px) {
+.slogan {
+    top: 8rem;
+    }
+}
+.slogan h1{
+    font-size: 100px;
+    color: #C88781;
+}
+@media all and (max-width:600px) {
+.slogan h1 {
+    font-size: 3rem;
+    color: #C88781;
+    }
+}
+.slogan p {
+    font:bold;
+    margin: 0 5%;
+    color:lightyellow;
+    margin: 10px 0;
+}
+@media all and (max-width:600px) {
+.slogan p {
+    display: none;
+    }
+}
+.shopbtn{
+    border: none;
+    background: none;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: white;
+    font-family: 'Oswald';
+}
+.shopbtn:hover{
+    color:#062039;
+}
+
+/* Featured items */
+.newproducts{
+    width: 95%;
+    max-width: 1000px;
+    height: 29rem;
+    margin: auto;
+}
+.newproducts h1 {
+    margin-top: 10vh;
+    text-align: center;
+    font-style: normal;
+    font-weight: lighter;
+    color: rgb(167, 20, 20);
+}
+.newproducts h2 {
+    font-size: medium;
+    font-weight: 100;
+}
+.newproducts h3 {
+    font-size:small;
+    font-style: italic;
+    font-weight: 200;
+}
+.featuredwrap {
+    display: flex;
+    margin: 5% auto;
+    align-items: start;
+    background: #f1eeee;
+}
+@media all and (max-width:600px) {
+.featuredwrap{
+    display:block;
+    margin: 5% auto;
+    align-items: start;
+    background: #f1eeee;
+    }
+}
+.seemorebtn {
+    position: relative;
+    font-weight: 300;
+    text-decoration: underline;
+    font-size: .8rem;
+    cursor: pointer;
+    color:black;
+    text-align: center;
+}
+.seemorebtn:hover {
+    color:darkgray;
+    font:bold;
+}
+.featured {
+    flex-basis: 25%;
+    margin: auto;
+    text-align: center;
+    border: black solid thin;
+    padding: 1rem;
+    margin: 1rem;
+}
+@media all and (min-width:601px) {
+.featured {
+    flex-basis:20%;
+}
+}
+.feature {
+    width: 9rem;
+    height: 9rem;
+    margin: auto;
+}
+@media all and (min-width:800px) {
+.feature {
+    width: 7rem;
+    height: 7rem;
+    margin: auto;
+ }
+}
+@media all and (min-width:601px) {
+.feature {
+    width: 5rem;
+    height: 5rem;
+}
+}
+.feature1, 
+.feature2, 
+.feature3,
+.feature4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.buynowbtn {
+    margin-top: 1rem;
+    border: none;
+    color: darkslategray;
+    cursor: pointer;
+}
+.buynowbtn:hover {
+    background: white;
+    border-radius: 20px;
+    padding: 0 1rem;
+}
+
+/* Sales Section */
+.salessection {
+    width: 100%;
+    height: 36rem;
+}
+
+.saleshero {
+    width: 50%;
+    height: 35rem;
+    overflow: hidden;
+    background-image: url(/photos/pinkroom.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-clip: content-box;
+    padding: 10px 0;
+    padding-right: 10px;
+    float: right;   
+}
+.sales {
+    width: 50%;
+    height:35rem;
+    overflow:hidden;
+    background-image: url("/photos/redchair.jpg");
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+    padding:10px 0;
+    padding-left:10px;
+    float:left;
+}
+.saleslogan {
+    position: relative;
+    left: 1rem;
+    top: 20rem;
+    line-height: normal;
+}
+@media all and (max-width: 600px) {
+.saleslogan {
+    top: 0rem;
+    }
+}
+.saleslogan h1 {
+    color:pink;
+    font-size: 4rem;
+}
+.saleslogan h2 {
+    color: white;
+}
+.saleslogan h3 {
+    color:white;
+    font-size: 1rem;
+}
+.salesbtn {
+    color: hotpink;
+    background: white;
+    padding: 0 30px;
+    border-radius: 2px;
+    text-align: center;
+    position: relative;
+    top: 1rem;
+    cursor: pointer;
+}
+.salesbtn:hover {
+    background: hotpink;
+    color: white;
+}

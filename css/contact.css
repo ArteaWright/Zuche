@@ -1,0 +1,93 @@
+body{
+    background-image: url("/photos/backgroundcontact.jpg");
+    background-position: center;
+    background-size:cover;
+}
+h1, h2 {
+    text-align: center;
+} 
+h1 {
+    color: black;
+    margin: 5%;
+    font-size: 50px;
+}
+h2 {
+    margin: 2% 0;
+    color:black;
+    font-size: 16px;
+}  
+p {
+    color:white;
+}
+form {
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color:black;
+    background:rgba(128, 128, 128, 0.5);
+    padding:5%;
+    width: 70%;
+    margin: auto;
+}
+  
+input[type=text], input[type=email],
+input[type=tel],textarea {
+    width: 100%;
+    padding: 12px;
+    border: solid #e6e6e6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize:vertical;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+  
+input[type=submit] {
+    background-color: rgb(116, 115, 115);
+    color: white;
+    padding: 1px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background:black;
+    color:white;
+}
+button {
+    background-color: rgb(116, 115, 115);
+    color: white;
+    padding: 3px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background:black;
+    color:white;
+}
+input:invalid {
+    border: 2px solid red;
+}
+.contactinfo{
+    color:white;
+    background:rgba(128, 128, 128, 0.5);
+    width: 50%;
+    text-align: center;
+    margin: 2% auto;
+    padding: 1% 2%;
+    border-radius: 10px;
+}
+.contactinfo h1, .contactinfo h2{
+    color:white;
+    font-size: 20px;
+}
+@media all and (max-width:600px) {
+    .contactinfo h1, .contactinfoh2 {
+        color: white;
+        font-size: 13px;
+    }
+}
+footer {
+    margin-top: 2%;
+}
